@@ -1,0 +1,24 @@
+<div>
+    <h2>Customer Creation</h2>
+<div>
+    Account Number:
+    <input [(ngModel)] = "customer.Accountno" placeholder="AccNo"/>
+</div>
+<div>
+    Customer Number:
+    <input [(ngModel)] = "customer.customerno" placeholder="CustNo"/>
+</div>
+<div>
+    Branch ID:
+    <input [(ngModel)] = "customer.branchid" placeholder="BranchID"/>
+</div>
+<div>
+    Balance:
+    <input [(ngModel)] = "customer.balance" placeholder="Balance"/>
+</div>
+<div>
+    Opening Date:
+    <input [(ngModel)] = "customer.openingdate" placeholder="OpeningDate" type="date"/>
+</div>
+<button (click)="createCustomer(customer)">Submit</button>
+</div>
